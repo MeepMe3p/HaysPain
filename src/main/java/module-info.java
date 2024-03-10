@@ -3,6 +3,6 @@ module com.example.hayspain {
     requires javafx.fxml;
 
 
-    opens com.example.hayspain to javafx.fxml;
+    opens com.example.hayspain.controllers to javafx.fxml;
     exports com.example.hayspain;
 }
